@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int KadanesAlgorithm(int nums[],int n){
+int KadanesAlgorithm(int nums[],int n){//Function declared
     
 
     int maxSubArrSum = nums[0];

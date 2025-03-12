@@ -4,7 +4,7 @@
 //S.C : O(n)
 class Solution {
     public:
-        vector<int> pivotArray(vector<int>& nums, int pivot) {
+        vector<int> pivotArray(vector<int>& nums, int pivot) {//stl declaration
             int n = nums.size();
     
             int countless  = 0;

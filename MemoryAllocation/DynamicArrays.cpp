@@ -19,7 +19,7 @@ int main() {
     int* arr = new int[n];
 
     //takign inputn in aray
-    for(int i=0; i<n; i++) {
+    for(int i=0; i<n; i++) {//loop
         cin >> arr[i];
     }
 

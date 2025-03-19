@@ -9,7 +9,7 @@ void SortedArray(int* arr,int size){//function to print sorted array
 void BubbleSort(int* arr, int size) {
     for (int i = 0; i < size - 1; i++) {//loop
         for (int j = 0; j < size - i - 1; j++) {//loop 
-            if (arr[j] > arr[j + 1]) {
+            if (arr[j] > arr[j + 1]) {//condition
                 //Swapping of adjacent elemnts
                 int temp = arr[j];
                 arr[j] = arr[j+1];

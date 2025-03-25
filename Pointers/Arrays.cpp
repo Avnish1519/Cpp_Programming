@@ -44,7 +44,7 @@ int main(){
 
     
 
-   int arr1[10];
+   int arr1[10];//array declared 
 
 //ERROR
    //arr = arr+1;

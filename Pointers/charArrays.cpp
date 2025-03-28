@@ -12,7 +12,7 @@ int main(){
 
     char *c= &ch[0];
     cout<<c<<endl;
-    cout<<*(c+1)<<endl;
+    cout<<*(c+1)<<endl;//print fn
     
     char temp='z';
     char *ch1 = &temp;

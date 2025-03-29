@@ -3,10 +3,10 @@ using namespace std;
 //Printing of the sorted arrays
 void SortedArray(int* arr,int size){//function to print sorted array
     for (int i = 0; i < size; i++) {
-        cout << arr[i] << " ";
+        cout << arr[i] << " ";//print fn
     }
 }
-void BubbleSort(int* arr, int size) {
+void BubbleSort(int* arr, int size) {//function
     for (int i = 0; i < size - 1; i++) {//loop
         for (int j = 0; j < size - i - 1; j++) {//loop 
             if (arr[j] > arr[j + 1]) {//condition

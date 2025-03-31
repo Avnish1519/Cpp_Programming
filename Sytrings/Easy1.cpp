@@ -1,6 +1,6 @@
 class Solution {
     public:
-        int minimumRecolors(string blocks, int k) {
+        int minimumRecolors(string blocks, int k) {//function
             int n = blocks.size();
             int result = k;
     

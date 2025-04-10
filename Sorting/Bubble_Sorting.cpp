@@ -2,7 +2,7 @@
 using namespace std;
 //Printing of the sorted arrays
 void SortedArray(int* arr,int size){//function to print sorted array
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < size; i++) {//loop
         cout << arr[i] << " ";//print fn
     }
 }

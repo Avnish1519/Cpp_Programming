@@ -14,7 +14,7 @@ int main(){
     cout << "6th " << *(arr + 1) << endl;
     cout << "7th " << *(arr) + 1 << endl;
     cout << "8th " << arr[2] << endl;
-    cout << "9th " << *(arr+2) << endl;
+    cout << "9th " << *(arr+2) << endl;//printing fn
 
     int i = 3;
     cout << i[arr] << endl;

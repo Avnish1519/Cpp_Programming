@@ -8,7 +8,7 @@ void insertionSort(int arr[], int n) {//function
 
         while (j >= 0 && arr[j] > key) {//loop
             arr[j + 1] = arr[j];
-            j = j - 1;
+            j = j - 1;//decrement operation
         }
         arr[j + 1] = key;
     }

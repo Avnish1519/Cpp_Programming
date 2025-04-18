@@ -7,7 +7,7 @@ int factorial(int num) {//function to print factorial
     else {
         int smaller = factorial(num - 1);
         int bigger = num * smaller;
-        return bigger;
+        return bigger;//returns the bigger no
     }
 }
 

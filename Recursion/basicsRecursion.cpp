@@ -13,7 +13,7 @@ int factorial(int num) {//function to print factorial
 
 int main() {
     int num;
-    cin >> num;
+    cin >> num;//input fn
     int result = factorial(num);
     cout << "Factorial of " << num << " is: " << result << endl;
     return 0;

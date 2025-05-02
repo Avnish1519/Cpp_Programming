@@ -1,3 +1,4 @@
+//class solution is created
 class Solution {
     public:
         int findNumbers(vector<int>& nums) {

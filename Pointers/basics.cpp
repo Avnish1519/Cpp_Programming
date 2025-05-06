@@ -7,7 +7,7 @@ int main(){
 
     // address of Operator - &
 
-    cout <<" address of num is " << &num << endl;
+    cout <<" address of num is " << &num << endl;//print function
 
     int *ptr = &num;
 

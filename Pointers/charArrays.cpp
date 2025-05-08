@@ -10,7 +10,7 @@ int main(){
     cout<<ptr<<endl;//pointer print 
     cout<<*ptr<<endl;
 
-    char *c= &ch[0];
+    char *c= &ch[0];//POINTER
     cout<<c<<endl;
     cout<<*(c+1)<<endl;//print fn
     

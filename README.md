@@ -1,3 +1,4 @@
 # c-
 For concepts  of C++
-FRom Basic Arrays to LInked Lists,Graphs,Trees,DFS
+From Basic Arrays to LInked Lists,Graphs,Trees,DFS
+Questions of Leetcode

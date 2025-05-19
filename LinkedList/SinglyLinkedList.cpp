@@ -11,7 +11,7 @@ class Node{//node class created
         this -> next = NULL;
     }
 
-    void insertAtHead(Node* &head, int d){
+    void insertAtHead(Node* &head, int d){//function
 
         //
     }

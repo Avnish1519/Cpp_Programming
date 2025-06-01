@@ -1,4 +1,4 @@
-class Solution {
+class Solution {//class declarartion
     public:
         int countLargestGroup(int n) {
            vector<int> count(37,0);
@@ -12,7 +12,7 @@ class Solution {
             }
             return ans;
         }
-        int calc_sum(int n){
+        int calc_sum(int n){//function
             return n==0?0:(n%10)+calc_sum(n/10);  
         }
     };

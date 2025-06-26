@@ -28,7 +28,7 @@ int partition(vector<int> &vec, int low, int high) {
     return (i + 1);
 }
 
-void quickSort(vector<int> &vec, int low, int high) {
+void quickSort(vector<int> &vec, int low, int high) {//function
 
     // Base case: This part will be executed till the starting
     // index low is lesser than the ending index high

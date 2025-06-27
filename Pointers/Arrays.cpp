@@ -49,7 +49,7 @@ int main(){
 //ERROR
    //arr = arr+1;
 
-    int *ptr = &arr1[0];
+    int *ptr = &arr1[0];//pointer initialized
     cout << ptr << endl;
     ptr = ptr + 1;
     cout << ptr << endl;

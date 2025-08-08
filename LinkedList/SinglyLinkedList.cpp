@@ -17,7 +17,7 @@ class Node{//node class created
     }
 };
 
-int main(){
+int main(){//main function
 
     Node* Node1 = new Node(10);
 

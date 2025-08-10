@@ -12,7 +12,7 @@ void BubbleSort(int* arr, int size) {//function
             if (arr[j] > arr[j + 1]) {//condition
                 //Swapping of adjacent elemnts
                 int temp = arr[j];//temp variable assigned to j
-                arr[j] = arr[j+1];
+                arr[j] = arr[j+1];//Element at index j is assigned to j+1
                 arr[j+1] = temp;
             }
         }

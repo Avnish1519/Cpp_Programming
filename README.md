@@ -1,6 +1,6 @@
 # CPP
 For concepts  of C++
-//Operators
+//Operators,Variables
 From Basic Arrays to LInked Lists,Graphs,Trees,DFS
 Questions of Leetcode
 Dynamic Programming

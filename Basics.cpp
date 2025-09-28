@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int n;
+   cout<<"Enter the number : ";
+   cin>>n;
+   int sum;
+
+   for(int i=1;i<=n;i++) {
+       sum+=i;
+   }
+
+   cout<<"The sum of the numbers is: "<<sum<<endl;
+
+   return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+#include <iostream>//using binary Search
+using namespace std;
+
+int binarySearch(int arr[], int size, int target) {
+    int low = 0, high = size - 1;
+
+    while (low <= high) {
+        int mid = low + (high - low) / 2;
+
+        if (arr[mid] == target)
+            return mid; // Found at index mid
+        else if (arr[mid] < target)
+            low = mid + 1; // Search right half
+        else
+            high = mid - 1; // Search left half
+    }
+
+    return -1; // Not found
+}
+
+int main() {
+    int arr[] = {3, 4, 9, 13, 17, 18, 21, 27};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int target = 13;
+
+    int result = binarySearch(arr, size, target);
+
+    if (result != -1)
+        cout << "Element found at index " << result << endl;
+    else
+        cout << "Element not found." << endl;
+
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#include <iostream> //using linear Search
+using namespace std;
+
+int main() {
+    int A[] = {3, 4, 9, 13, 17, 18, 21, 27};
+    
+    for(int i=0; i<8; i++) {
+        if(A[i]==30) {
+            cout<<"Element found at index "<<i<<endl;
+        }
+    }
+    
+}
+     

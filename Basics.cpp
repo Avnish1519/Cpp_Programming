@@ -65,4 +65,22 @@ int main() {
     }
     
 }
+
+---------------------------------------------------------------------------------------------------------------
+   #include <iostream>
+using namespace std;
+
+int main() {
+    int a, b=0;
+    cout<<"Enter the value of a: ";
+    cin>>a;
+    
+    for(int i=0; i<a; i++) {
+        b+=i;
+    }
+    
+    cout<<"The value of b is: "<<b<<endl;
+
+    return 0;
+}
      

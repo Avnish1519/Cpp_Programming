@@ -12,7 +12,7 @@ int KadanesAlgorithm(int nums[],int n){
         currSubArrSum = max(nums[i], currSubArrSum + nums[i]);
         maxSubArrSum = max(maxSubArrSum , currSubArrSum);
     }
-    return maxSubArrSum;
+    return maxSubArrSum;//using return keyword
 }
 int main(){
     int nums[]={1,-3,2,3,-4};

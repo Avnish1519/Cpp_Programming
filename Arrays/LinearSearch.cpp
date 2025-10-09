@@ -25,3 +25,33 @@ int main() {
 
     return 0;
 }
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+    //Second way to find the the element using linear search
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+  cout<<"Enter the number: ";
+  cin>>n;
+  
+  int a;
+  cout<<"Enter the target interger to search as 'a': ";
+  cin>>a;
+  
+
+  int arr[n];
+  cout<<"Enter the array: ";
+  for(int i=0; i<n; i++) {
+      cin>>arr[i];
+  }
+  
+  
+  for(int i=0; i<n; i++) {
+     if(arr[i] == a) {
+        cout<<"Element found at index: "<<i;
+     }
+  }
+  return 0;
+}

@@ -28,5 +28,5 @@ int main() {
     SortedArray(arr, size);
     
     
-    return 0;
+    return 0;//using the return keyword
 }

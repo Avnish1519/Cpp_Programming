@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 void bubbleSort(int arr[], int n) {
@@ -28,6 +29,12 @@ int main() {
 
     cout << "Sorted array: ";
     printArray(arr, n);
+
+
+    string name = "Avnish";
+    cout<<name<<endl;
+
+    cout<<name.size();//printing the length of the string 
 
     return 0;
 }

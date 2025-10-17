@@ -5,7 +5,7 @@ class Solution {
             int ans = 0;
             for(int val : nums) {//using for loop
                 string s = to_string(val);
-                if(!(s.length() & 1))
+                if(!(s.length() & 1))//using if control structure
                     ans++;
             }
             return ans;

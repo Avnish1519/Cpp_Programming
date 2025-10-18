@@ -84,3 +84,19 @@ int main() {
     return 0;
 }
      
+--------------------------------------------------------------------------------------------------------------
+#include <bits/stdc++.h>
+using namespace std;
+
+string insertChar(string &s, char c, int pos) {
+  
+    // Insert character at specified position
+    s.insert(s.begin() + pos, c);
+  	return s;
+}
+
+int main() {
+    string s = "Avnish";
+    cout << insertChar(s, 'A', 3);
+    return 0;
+}

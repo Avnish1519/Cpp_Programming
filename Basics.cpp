@@ -88,7 +88,7 @@ int main() {
 #include <bits/stdc++.h>
 using namespace std;
 
-string insertChar(string &s, char c, int pos) {
+string insertChar(string &s, char c, int pos) {//using the function
   
     // Insert character at specified position
     s.insert(s.begin() + pos, c);

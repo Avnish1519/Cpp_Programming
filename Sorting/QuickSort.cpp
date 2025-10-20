@@ -52,7 +52,7 @@ int main() {
       // Calling quicksort for the vector vec
     quickSort(vec, 0, n - 1);
 
-    for (auto i : vec) {
+    for (auto i : vec) {//using for-loop
         cout << i << " ";
     }
     return 0;

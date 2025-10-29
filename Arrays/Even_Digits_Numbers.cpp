@@ -8,6 +8,6 @@ class Solution {
                 if(!(s.length() & 1))//using if control structure
                     ans++;
             }
-            return ans;
+            return ans;//returns answer
         }
     };

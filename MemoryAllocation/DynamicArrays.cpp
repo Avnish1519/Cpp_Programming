@@ -3,7 +3,7 @@ using namespace std;
 
 int getSum(int *arr, int n) {//function
 
-    int sum = 0;
+    int sum = 0;//sum variable
     for(int i=0; i<n; i++) {//loops
         sum += arr[i];
     } 

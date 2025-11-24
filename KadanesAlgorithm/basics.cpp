@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>//standard library
 using namespace std;
 
 int KadanesAlgorithm(int nums[],int n){//Function declared

@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int partition(vector<int> &vec, int low, int high) {
+int partition(vector<int> &vec, int low, int high) {//function
 
     // Selecting last element as the pivot
     int pivot = vec[high];

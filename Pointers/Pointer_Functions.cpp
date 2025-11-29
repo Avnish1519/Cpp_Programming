@@ -17,7 +17,7 @@ int getSum(int arr[],int n){//Here arr is passed as a pointer
     }
     return sum;
 }
-int main(){
+int main(){//main function
     /*int value = 7;
     int *ptr = &value;
 

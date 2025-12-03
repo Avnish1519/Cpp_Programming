@@ -11,7 +11,7 @@ class Heap{
         size=0;
     }
     
-    void insert(int val){
+    void insert(int val){//insert function
         
         size = size+1;
         int index = size;

@@ -1,7 +1,7 @@
 
 #include <iostream>
 using namespace std;
-class Heap{
+class Heap{//class heap declared
     public:
     int arr[100];
     int size;

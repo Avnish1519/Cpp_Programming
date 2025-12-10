@@ -10,7 +10,7 @@ int getSum(int *arr, int n) {//function
     return sum;
 }
 
-int main() {
+int main() {//main function
 
     int n;
     cin >> n;

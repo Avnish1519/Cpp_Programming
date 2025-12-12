@@ -4,10 +4,10 @@ using namespace std;
 int KadanesAlgorithm(int nums[],int n){//Function declared
     
 
-    int maxSubArrSum = nums[0];//
+    int maxSubArrSum = nums[0];
     int currSubArrSum  = nums[0];
 
-    for(int i=1;i<n ;i++ ){//loops
+    for(int i=1;i<n ;i++ ){//using for loop
 
         currSubArrSum = max(nums[i], currSubArrSum + nums[i]);//current subarray sum 
         maxSubArrSum = max(maxSubArrSum , currSubArrSum);

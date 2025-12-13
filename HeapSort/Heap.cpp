@@ -30,7 +30,7 @@ class Heap{//class heap declared
         }
     }
     
-    void print(){
+    void print(){//print function
         for(int i=1;i<=size;i++){
             cout<<arr[i] << " ";
         }cout<<endl;

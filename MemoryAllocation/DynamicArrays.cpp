@@ -1,5 +1,5 @@
 #include<iostream>//library
-using namespace std;
+using namespace std;//standard library
 
 int getSum(int *arr, int n) {//function
 

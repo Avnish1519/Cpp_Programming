@@ -8,7 +8,7 @@ class Node{//node class created
     //constructor
     Node(int data){//node constructor
         this -> data = data;//constructor
-        this -> next = NULL;
+        this -> next = NULL;//constructor
     }
 
     void insertAtHead(Node* &head, int d){//function

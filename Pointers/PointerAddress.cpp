@@ -28,7 +28,7 @@ int main(){
 
 
    int *p  = &num;
-   cout << "before " << num << endl;
+   cout << "before " << num << endl;//printing the output
    (*p)++;
    cout << "after " << num << endl;
 

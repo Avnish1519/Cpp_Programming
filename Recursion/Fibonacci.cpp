@@ -4,7 +4,7 @@ using namespace std;
 // Recursive function to find Fibonacci numbers
 int fibonacci(int n) {
     if (n <= 1)
-        return n;
+        return n;//using return keyword
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
 

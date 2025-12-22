@@ -17,7 +17,7 @@ int main(){
 
     //Address of ptr 
     cout<<&ptr<<endl;
-    cout<<ptr2<<endl;
+    cout<<ptr2<<endl;//printing the output
 
 
 

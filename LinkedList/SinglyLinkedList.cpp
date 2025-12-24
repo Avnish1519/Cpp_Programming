@@ -21,7 +21,7 @@ int main(){//main function
 
     Node* Node1 = new Node(10);//node declared
 
-    cout<< Node1 -> data << endl;
+    cout<< Node1 -> data << endl;//printing the output
     cout<< Node1 -> next << endl;
 
 }

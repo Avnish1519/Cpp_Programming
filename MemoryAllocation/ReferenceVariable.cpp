@@ -39,7 +39,7 @@ int main() {
 
    int n = 5;
    
-   cout << "Before " << n << endl;
+   cout << "Before " << n << endl;//printing the output
    update2(n);
    cout << "After " << n << endl;
 

@@ -33,7 +33,7 @@ int main() {//main function
     }
     
 //case 2
-    while(true) {
+    while(true) { //using while loop for the pointer
         int* ptr = new int;
     }
 

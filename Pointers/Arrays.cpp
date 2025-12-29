@@ -52,7 +52,7 @@ int main(){
     int *ptr = &arr1[0];//pointer initialized
     cout << ptr << endl;
     ptr = ptr + 1;
-    cout << ptr << endl;
+    cout << ptr << endl;//printing the output
 
 
 

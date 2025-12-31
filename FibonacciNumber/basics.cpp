@@ -8,6 +8,6 @@ public:
             a = b;
             b = temp;
         }
-        return b;
+        return b;//return statement
     }
 };

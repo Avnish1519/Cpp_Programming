@@ -15,7 +15,7 @@ void swapAlternate(int arr[],int size){//swapping function
 }
 int main(){
     int even[]={2,5,7,4,3,9,8,6};
-    int odd[]={3,5,7,6,8,7,9};
+    int odd[]={3,5,7,6,8,7,9};//intialization
     swapAlternate(even,8);
     printArray(even,8);
 

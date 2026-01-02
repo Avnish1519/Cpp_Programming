@@ -17,7 +17,7 @@ class Heap{//class heap declared
         int index = size;
         arr[index] = val;
         
-        while(index > 1){
+        while(index > 1){//using while loop to iterate
             int parent = index /2;
             
             if(arr[parent]<arr[index]){

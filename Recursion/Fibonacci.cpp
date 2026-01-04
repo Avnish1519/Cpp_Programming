@@ -13,7 +13,7 @@ int main() {
     cout << "Enter the number of terms: ";
     cin >> n;
 
-    cout << "Fibonacci sequence: ";
+    cout << "Fibonacci sequence: ";//printing the fibonacci sequence
     for (int i = 0; i < n; i++) {//using for-loop
         cout << fibonacci(i) << " ";//printing the output
     }

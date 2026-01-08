@@ -32,8 +32,8 @@ class Heap{//class heap declared
     
     void print(){//print function
         for(int i=1;i<=size;i++){
-            cout<<arr[i] << " ";
-        }cout<<endl;
+            cout<<arr[i] << " ";//printing the output
+        }cout<<endl;//using for new line
     }
         
 };

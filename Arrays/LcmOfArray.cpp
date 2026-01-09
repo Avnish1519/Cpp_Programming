@@ -16,6 +16,6 @@ int main() {
     for (int i = 1; i < n; i++)
         result = lcm(result, arr[i]);
 
-    cout << "LCM = " << result << endl;
+    cout << "LCM = " << result << endl;//printing the output
     return 0;
 }

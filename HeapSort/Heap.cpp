@@ -3,7 +3,7 @@
 using namespace std;
 class Heap{//class heap declared
     public:
-    int arr[100];
+    int arr[100];//array declared
     int size;
     
     Heap(){

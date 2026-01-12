@@ -8,7 +8,7 @@ int main() {
     int i =1;
     while(i<=n) {
         int j=1;
-        while(j<=i) {
+        while(j<=i) {//using a while loop for the condition 
             char ch = 'a'+i+j-2;
             cout<<ch<<" ";
             j++;

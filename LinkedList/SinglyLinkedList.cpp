@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>//standard library
 using namespace std;
 class Node{//node class created
     public:

@@ -17,7 +17,7 @@ int main() {
 
     int result = linearSearch(arr, size, target);
 
-    if (result != -1) {
+    if (result != -1) {//using if-else control statement
         cout << "Element found at index: " << result << endl;
     } else {
         cout << "Element not found in the array." << endl;

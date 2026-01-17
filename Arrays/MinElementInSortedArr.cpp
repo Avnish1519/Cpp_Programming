@@ -16,7 +16,7 @@ void sortArray(int arr[], int n) {
 void minElement(int arr[], int n) {
     sortArray(arr, n);
     int minEle = arr[0];
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i < n; i++) {//using for loop
         if (arr[i] < minEle) {
             minEle = arr[i];
         }

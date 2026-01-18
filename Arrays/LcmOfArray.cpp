@@ -13,7 +13,7 @@ int main() {
     long int arr[] = {2, 3, 4};
     int n = 3, result = arr[0];
 
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i < n; i++)//using for loop
         result = lcm(result, arr[i]);
 
     cout << "LCM = " << result << endl;//printing the output

@@ -25,7 +25,7 @@ int main() {//main function
 
     int ans = getSum(arr, n);
 
-    cout << "answer is "<< ans << endl;
+    cout << "answer is "<< ans << endl;//printing the output
 
 //case 1
     while(true) {

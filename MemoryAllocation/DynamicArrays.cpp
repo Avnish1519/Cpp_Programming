@@ -23,7 +23,7 @@ int main() {//main function
         cin >> arr[i];
     }
 
-    int ans = getSum(arr, n);
+    int ans = getSum(arr, n);//recursive function passed to answer
 
     cout << "answer is "<< ans << endl;//printing the output
 

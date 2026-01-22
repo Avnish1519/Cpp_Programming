@@ -14,7 +14,7 @@ int KadanesAlgorithm(int nums[],int n){//Function declared
     }
     return maxSubArrSum;//using return keyword
 }
-int main(){
+int main(){//main function
     int nums[]={1,-3,2,3,-4};//array
     int n=sizeof(nums)/sizeof(nums[0]);
     int maxSubArray=KadanesAlgorithm(nums,n);

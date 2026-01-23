@@ -7,7 +7,7 @@ int getSum(int *arr, int n) {//function
     for(int i=0; i<n; i++) {//loops
         sum += arr[i];
     } 
-    return sum;
+    return sum;//return statement
 }
 
 int main() {//main function

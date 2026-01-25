@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>//library function
 using namespace std;
 
 int factorial(int num) {//function to print factorial

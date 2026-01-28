@@ -39,7 +39,7 @@ class Heap{//class heap declared
 };
 int main()
 {
-    Heap h;
+    Heap h;//Heap made
     h.insert(50);//used to insert the elements
     h.insert(55);
     h.insert(53);

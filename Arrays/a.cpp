@@ -36,7 +36,7 @@ int main() {
 
     // Print the merged array
     cout << "Merged array: ";
-    for (int i = 0; i < size1 + size2; i++)
+    for (int i = 0; i < size1 + size2; i++)//using the for-loop
         cout << mergedArr[i] << " ";
     cout << endl;
 

@@ -41,7 +41,7 @@ int main()
 {
     Heap h;//Heap made
     h.insert(50);//used to insert the elements
-    h.insert(55);
+    h.insert(55);//used to insert the elements
     h.insert(53);
     h.insert(52);
     h.insert(51);

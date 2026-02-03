@@ -1,4 +1,4 @@
-#include <iostreams>
+#include <iostreams>//library function
 using namespace std;
 
 int main() {

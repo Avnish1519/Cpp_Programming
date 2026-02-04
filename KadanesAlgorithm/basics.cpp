@@ -16,7 +16,7 @@ int KadanesAlgorithm(int nums[],int n){//Function declared
 }
 int main(){//main function
     int nums[]={1,-3,2,3,-4};//array
-    int n=sizeof(nums)/sizeof(nums[0]);
+    int n=sizeof(nums)/sizeof(nums[0]);//assigns size of nums to n
     int maxSubArray=KadanesAlgorithm(nums,n);
     cout<<maxSubArray<<endl;//printing the outputs
 }

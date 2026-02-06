@@ -20,7 +20,7 @@ class Heap{//class heap declared
         while(index > 1){//using while loop to iterate
             int parent = index /2;
             
-            if(arr[parent]<arr[index]){
+            if(arr[parent]<arr[index]){//conditional
                 swap(arr[parent],arr[index]);
                 index = parent;
             }

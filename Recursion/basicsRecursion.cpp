@@ -23,7 +23,7 @@ int main() {
 using namespace std;
 
 int sum(int  n){
-    if (n == 1)
+    if (n == 1)//using if control statement
      return  1 ;
     return n + sum(n - 1); 
 }

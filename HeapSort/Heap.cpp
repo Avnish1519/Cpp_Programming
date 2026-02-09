@@ -1,10 +1,10 @@
-
+/
 #include <iostream>//standard library
 using namespace std;
 class Heap{//class heap declared
     public:
     int arr[100];//array declared
-    int size;
+    int size;//size initialized
     
     Heap(){
         arr[0]=-1;

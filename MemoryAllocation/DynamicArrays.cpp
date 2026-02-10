@@ -12,7 +12,7 @@ int getSum(int *arr, int n) {//function
 
 int main() {//main function
 
-    int n;
+    int n;//number of elements
     cin >> n;
     
     //variable size array

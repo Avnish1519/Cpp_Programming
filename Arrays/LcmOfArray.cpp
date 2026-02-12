@@ -6,7 +6,7 @@ int gcd(long long a, long long b) {
 }
 
 int lcm(long long a, long long b) {
-    return (a * b) / gcd(a, b);
+    return (a * b) / gcd(a, b);//using a return statement
 }
 
 int main() {

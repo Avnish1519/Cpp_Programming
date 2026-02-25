@@ -21,7 +21,7 @@ void BubbleSort(int* arr, int size) {//function
 }
 
 int main() {
-    int arr[] = {5, 4, 1, 3, 2};
+    int arr[] = {5, 4, 1, 3, 2};//declaring and intializing the array
     int size = sizeof(arr) / sizeof(arr[0]);
     
     BubbleSort(arr, size);
